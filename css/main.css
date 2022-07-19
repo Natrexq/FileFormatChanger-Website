@@ -63,7 +63,86 @@ body{
         width: 100%;
         height: 71%;
         background-color: #3C3F58;
+        display: flex;
+        justify-content: space-around;
     }
+
+            .dwl{
+                margin-left: 10em;
+                margin-top: 12em;
+                width: 33em;
+                display: block;
+                height: 15em;
+                background: none;
+                border-radius: 4.5em;
+                
+                -webkit-border-radius: 4.5em;
+                -moz-border-radius: 4.5em;
+                -ms-border-radius: 4.5em;
+                -o-border-radius: 4.5em;
+}
+
+                .dwbut{
+                    float: left;
+                    width: 30em;
+                    
+
+                }
+                .dwinfo{
+                    margin-top: 1em;
+                    float: left;
+                    width: 24em;
+                    height: 5em;
+                    display: flex;
+                    justify-content: center;
+                    
+                        }
+                                .dvdesc{
+                                    cursor: pointer;
+                                    width: 20em;
+                                    height: 3em;
+                                    background-color: #707793;
+                                    border-radius: 2em;
+                                    -webkit-border-radius:;
+                                    -moz-border-radius:;
+                                    -ms-border-radius:;
+                                    -o-border-radius:;
+                                    display: flex;
+                                    justify-content: center;
+                                    transition: filter 500ms;
+                                    -webkit-transition: filter 500ms;
+                                    -moz-transition: filter 500ms;
+                                    -ms-transition: filter 500ms;
+                                    -o-transition: filter 500ms;
+                                    filter: drop-shadow(0 0 3px #707793);
+                                    -webkit-filter: drop-shadow(0 0 3px #707793);
+}       
+                                    .dvdesc:hover{
+                                        filter:drop-shadow(0 0 20px #212443) ;
+                                        -webkit-filter:drop-shadow(0 0 12px #707793) ;
+}
+                            #desc{
+                                
+                                font-size: 100%;
+                                margin-top: 0.8em;
+                                color: #FDFDFD;
+                                transition: font-size 500ms;
+                                font-family: 'Roboto', sans-serif;
+                                -webkit-transition: font-size 500ms;
+                                -moz-transition: font-size 500ms;
+                                -ms-transition: font-size 500ms;
+                                -o-transition: font-size 500ms;
+}
+                            #desc:hover{font-size: 110%;}
+            .info{
+                margin-left: 5em;
+                margin-top: 3em;
+                width: 35em;
+                height: 30em;
+                background-color: #2e368c;
+            }
+
+
     .endbar{
         margin-top: 2em;
         width: 100%;
@@ -74,6 +153,7 @@ body{
 
 /*BUTTONS*/
         .nvbut{
+            border: none;
             margin-top: 1em;
             width: 14em;
             height: 4.2em;
@@ -84,9 +164,29 @@ body{
             -ms-border-radius: 1.5em;
             -o-border-radius: 1.5em;
 }
+    .download{
+        width: 80%;
+        height: 8em;
+        border: none;
+        background-color:#48c9ab;
+        border-radius: 3.5em;
+        -webkit-border-radius: 3.5em;
+        -moz-border-radius: 3.5em;
+        -ms-border-radius: 3.5em;
+        -o-border-radius: 3.5em;
+        transition: background-color 500ms,filter 500ms;
+        -webkit-transition: background-color 500ms,filter 500ms;
+        -moz-transition: background-color 500ms,filter 500ms;
+        -ms-transition: background-color 500ms,filter 500ms;
+        -o-transition: background-color 500ms,filter 500ms;
+        filter: drop-shadow(0 0 5px #48c9ab);
+        -webkit-filter: drop-shadow(0 0 5px #48c9ab);
+}
+.download:hover{ background-color: #4eccaf; filter:drop-shadow(0 0 20px #2e368c) ; -webkit-filter:drop-shadow(0 0 20px #48c9ab) ; }
+
 /* TEXT*/
 .intro{
-
+    cursor: pointer;
     float: left;
     color: #FDFDFD;
     font-size: 180%;
@@ -95,8 +195,21 @@ body{
     font-weight: bold;
 }
 .but{
-    font-size: 160%;
+    font-size: 140%;
     font-family: 'Prompt', sans-serif;
-    margin-top: 0.4em;
+    margin-top: 0.7em;
     color: #000000;
 }
+h2.dow{
+    color: #000000;
+    font-size: 230%;
+    margin-top: 0.7em;
+    transition: font-size 500ms;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    -webkit-transition: font-size 500ms;
+    -moz-transition: font-size 500ms;
+    -ms-transition: font-size 500ms;
+    -o-transition: font-size 500ms;
+}
+h2.dow:hover{font-size: 270%;}
