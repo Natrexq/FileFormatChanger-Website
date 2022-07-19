@@ -68,7 +68,7 @@ body{
     }
 
             .dwl{
-                margin-left: 10em;
+                margin-left: 14em;
                 margin-top: 12em;
                 width: 33em;
                 display: block;
@@ -103,10 +103,6 @@ body{
                                     height: 3em;
                                     background-color: #707793;
                                     border-radius: 2em;
-                                    -webkit-border-radius:;
-                                    -moz-border-radius:;
-                                    -ms-border-radius:;
-                                    -o-border-radius:;
                                     display: flex;
                                     justify-content: center;
                                     transition: filter 500ms;
@@ -116,6 +112,10 @@ body{
                                     -o-transition: filter 500ms;
                                     filter: drop-shadow(0 0 3px #707793);
                                     -webkit-filter: drop-shadow(0 0 3px #707793);
+                                    -webkit-border-radius: 2em;
+                                    -moz-border-radius: 2em;
+                                    -ms-border-radius: 2em;
+                                    -o-border-radius: 2em;
 }       
                                     .dvdesc:hover{
                                         filter:drop-shadow(0 0 20px #212443) ;
@@ -135,20 +135,68 @@ body{
 }
                             #desc:hover{font-size: 110%;}
             .info{
-                margin-left: 5em;
-                margin-top: 3em;
-                width: 35em;
-                height: 30em;
-                background-color: #2e368c;
-            }
+               margin-top: 5em;
+               filter: drop-shadow(0 0 10px #24263a);
+               width: 30em;
+               height: 26em;
+               background-color: #5b6380;
+               border-radius: 3.5em 4.5em 3em 3em ;
+               -webkit-border-radius: 3.5em 4.5em 3em 3em ;
+               -moz-border-radius: 3.5em 4.5em 3em 3em ;
+               -ms-border-radius: 3.5em 4.5em 3em 3em ;
+               -o-border-radius: 3.5em 4.5em 3em 3em ;
+               display: block;
+               -webkit-filter: drop-shadow(0 0 10px #24263a);
+}
+                        .decin{
+                            border-radius: 3.5em 4.5em 0em 0em ;
+                            width: 100%;
+                            height: 5.5em;
+                            display: flex;
+                            background-color: #24263a;
+                            justify-content: center;
+                            -webkit-border-radius: 3.5em 4.5em 0em 0em ;
+                            -moz-border-radius: 3.5em 4.5em 0em 0em ;
+                            -ms-border-radius: 3.5em 4.5em 0em 0em ;
+                            -o-border-radius: 3.5em 4.5em 0em 0em ;
+}
+                        .description{
+                            width: 100%;
+                            height: 15em;
+                            
+}
+                        .author{
+                            width: 100%;
+                            height: 6em;
+                            border-radius: 0em 0em 3em 3em ;
+                            -webkit-border-radius: 0em 0em 3em 3em ;
+                            -moz-border-radius: 0em 0em 3em 3em ;
+                            -ms-border-radius: 0em 0em 3em 3em ;
+                            -o-border-radius: 0em 0em 3em 3em ;
+                            background-color: #000101;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        #git{
+                            margin-top: 0.5em;
+                            font-size: 150%;
+                        }
 
 
     .endbar{
         margin-top: 2em;
         width: 100%;
         float: left;
-        height: 5em;
+        height: 5.4em;
+        display: flex;
+        justify-content: left;
         background-color: #000000;
+    }
+    .end{
+        color: #424242;
+        margin-top: 1.8em;
+        margin-left: 2em;
+        font-family: 'Roboto', sans-serif;
     }
 
 /*BUTTONS*/
@@ -158,12 +206,18 @@ body{
             width: 14em;
             height: 4.2em;
             border-radius: 1.5em;
+            filter: drop-shadow(0 0 5px #3BBA9C);
             background-color:#3BBA9C;
+            transition: filter 500ms;
+
             -webkit-border-radius: 1.5em;
             -moz-border-radius: 1.5em;
             -ms-border-radius: 1.5em;
             -o-border-radius: 1.5em;
-}
+            -webkit-filter: drop-shadow(0 0 5px #3BBA9C);
+          
+}   
+.nvbut:hover{ filter: drop-shadow(0 0 10px #3BBA9C); -webkit-filter: drop-shadow(0 0 10px #3BBA9C); }
     .download{
         width: 80%;
         height: 8em;
@@ -193,13 +247,25 @@ body{
     margin-top: 0.7em;
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
+    transition: font-size 500ms;
+    -webkit-transition: font-size 500ms;
+    -moz-transition: font-size 500ms;
+    -ms-transition: font-size 500ms;
+    -o-transition: font-size 500ms;
 }
+.intro:hover{font-size: 188%;}
 .but{
     font-size: 140%;
     font-family: 'Prompt', sans-serif;
     margin-top: 0.7em;
     color: #000000;
+    transition: font-size 500ms;
+    -webkit-transition: font-size 500ms;
+    -moz-transition: font-size 500ms;
+    -ms-transition: font-size 500ms;
+    -o-transition: font-size 500ms;
 }
+.but:hover{margin-top: 0.6em; font-size: 150%;}
 h2.dow{
     color: #000000;
     font-size: 230%;
@@ -213,3 +279,19 @@ h2.dow{
     -o-transition: font-size 500ms;
 }
 h2.dow:hover{font-size: 270%;}
+.fsinfo{
+    cursor: pointer;
+    float: left;
+    color: #FDFDFD;
+    font-size: 150%;
+    margin-top: 1.2em;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+.descri{
+    width: 95%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: normal;
+    margin-left: 1em;
+    color: white;
+}
