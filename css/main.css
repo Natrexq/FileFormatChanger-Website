@@ -42,12 +42,17 @@ body{
         width: 100%;
         float: left;
         height: 5.2em;
-        background-color:#181927;
+        background-color:#181a25;
         
     }
+        
+
         .logo{
+            margin-top: 0.1em;
             width: 30%;
-            padding-left: 4em;
+            padding-left: 2em;
+            display: flex;
+            justify-content: center;
             
             
         }
@@ -132,6 +137,7 @@ body{
 }
 
                 .dwbut{
+                    
                     float: left;
                     width: 30em;
                     
@@ -184,7 +190,7 @@ body{
 }
                             #desc:hover{font-size: 110%;}
             .info{
-               margin-top: 4.5em;
+               margin-top: 5.5em;
              
                width: 30em;
                height: 25em;
@@ -251,21 +257,29 @@ body{
         background-color: #000000;
     }
     .end{
+        cursor: default;
         color: #424242;
         margin-top: 1.8em;
         margin-left: 2em;
         font-family: 'Roboto', sans-serif;
     }
-
+    .spaninfo{
+        cursor:grab;
+        color: #424242;
+        float: right;
+        margin-top: 1.8em;
+        margin-left: 2em;
+        font-family: 'Roboto', sans-serif;
+    }
 /*BUTTONS*/
         .nvbut{
             border: none;
-            margin-top: 1em;
+            margin-top: 1.3em;
             width: 13.5em;
             height: 4em;
             border-radius: 1.5em;
             filter: drop-shadow(0 0 5px #3BBA9C);
-            background-color:#48c9ab;
+            background-color:#3cb397;
             transition: filter 500ms;
 
             -webkit-border-radius: 1.5em;
@@ -277,6 +291,7 @@ body{
 }   
 .nvbut:hover{ filter: drop-shadow(0 0 10px #3BBA9C); -webkit-filter: drop-shadow(0 0 10px #3BBA9C); }
     .download{
+        cursor: pointer;
         width: 80%;
         height: 8em;
         border: none;
@@ -298,22 +313,24 @@ body{
 
 /* TEXT*/
 .intro{
-    
     cursor: pointer;
     float: left;
-    color: #FDFDFD;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 16px #6d6d6d);
     font-size: 180%;
     margin-top: 0.7em;
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
-    transition: font-size 500ms;
-    -webkit-transition: font-size 500ms;
-    -moz-transition: font-size 500ms;
-    -ms-transition: font-size 500ms;
-    -o-transition: font-size 500ms;
+    transition: font-size 500ms,color 500ms;
+    -webkit-transition: font-size 500ms,color 500ms;
+    -moz-transition: font-size 500ms,color 500ms;
+    -ms-transition: font-size 500ms,color 500ms;
+    -o-transition: font-size 500ms,color 500ms;
+    -webkit-filter: drop-shadow(0 0 16px #6d6d6d);
 }
-.intro:hover{font-size: 188%;}
+.intro:hover{font-size: 188%; color: #EDEDED;}
 .but{
+    cursor: pointer;
     font-size: 135%;
     font-family: 'Prompt', sans-serif;
     margin-top: 0.7em;
@@ -339,6 +356,7 @@ h2.dow{
 }
 h2.dow:hover{font-size: 270%;}
 .fsinfo{
+    opacity: 80%;
     cursor: pointer;
     float: left;
     color: #FDFDFD;
@@ -348,8 +366,9 @@ h2.dow:hover{font-size: 270%;}
     font-weight: bold;
 }
 .descri{
+    opacity: 50%;
     width: 95%;
-    font-size: 145%;
+    font-size: 128%;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
