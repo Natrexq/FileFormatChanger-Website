@@ -21,9 +21,7 @@ font-family: 'Roboto', sans-serif;
  *{
     scroll-behavior: smooth;
 }
-#git{
-    
-}
+
 body{
     scroll-behavior: smooth;
     width: 100%;
@@ -38,13 +36,13 @@ body{
     width: 100%;
     height: 47.8em;
 
-    background-color: #1f2033;
+    background-color: #1c1e2a;
 }
     .nav{
         width: 100%;
         float: left;
-        height: 5em;
-        background-color:#1b1c2b;;
+        height: 5.2em;
+        background-color:#181927;
         
     }
         .logo{
@@ -82,10 +80,10 @@ body{
 }
     .con{
         position: relative;
-        margin-top: 3em;
+        margin-top: 2em;
         float: left;
         width: 100%;
-        height: 36em;
+        height: 38.5em;
        
         display: flex;
         justify-content: left;
@@ -267,7 +265,7 @@ body{
             height: 4em;
             border-radius: 1.5em;
             filter: drop-shadow(0 0 5px #3BBA9C);
-            background-color:#3BBA9C;
+            background-color:#48c9ab;
             transition: filter 500ms;
 
             -webkit-border-radius: 1.5em;
@@ -351,8 +349,8 @@ h2.dow:hover{font-size: 270%;}
 }
 .descri{
     width: 95%;
-    font-size: 130%;
-    font-family: 'Prompt', sans-serif;
+    font-size: 145%;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
 }
