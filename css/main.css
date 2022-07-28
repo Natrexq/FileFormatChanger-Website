@@ -33,27 +33,59 @@ body{
 .main{
     float: left;
     width: 100%;
-    height: 53.2em;
+    height: 47.8em;
 
-    background-color: #2E3047;
+    background-color: #24263a;
 }
     .nav{
         width: 100%;
         float: left;
         height: 5em;
-        background-color: #24263a;
-
+        background-color:#1b1c2b;;
+        
     }
+        .logo{
+            width: 32%;
+            padding-left: 3em;
+          
+            
+        }
+        .buts{
+            display: flex;
+            justify-content: space-around;
+            width: 62%;
+          
+        }
         .nvback{
+           width: 62em;
+           height: 100%;
+           display: flex;
+           justify-content: space-between;
+        }
+
+
+        .dwloadback{
+           
+            width: 69%;
+            background: none;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+           
+
+        }
+        .cndwl{
+            
+            background: none;
+        }
+        .dwinfoback{
+            width: 31%;
+            background: none;
+            height: 100%;
             display: flex;
             justify-content: left;
-            margin-left: 2em;
-            width: 55%;
-            height: 100%;
-            background: none;
-            display: flex;
-            justify-content: space-around
         }
+
 
 
 
@@ -61,14 +93,16 @@ body{
         margin-top: 3em;
         float: left;
         width: 100%;
-        height: 71%;
-        background-color: #3C3F58;
+        height: 36em;
+        background-color: #34384d;
         display: flex;
-        justify-content: space-around;
+        justify-content: left;
     }
 
+      
+
             .dwl{
-                margin-left: 14em;
+        
                 margin-top: 12em;
                 width: 33em;
                 display: block;
@@ -135,48 +169,57 @@ body{
 }
                             #desc:hover{font-size: 110%;}
             .info{
-               margin-top: 5em;
-               filter: drop-shadow(0 0 10px #24263a);
+               margin-top: 4.5em;
+             
                width: 30em;
-               height: 26em;
-               background-color: #5b6380;
-               border-radius: 3.5em 4.5em 3em 3em ;
-               -webkit-border-radius: 3.5em 4.5em 3em 3em ;
-               -moz-border-radius: 3.5em 4.5em 3em 3em ;
-               -ms-border-radius: 3.5em 4.5em 3em 3em ;
-               -o-border-radius: 3.5em 4.5em 3em 3em ;
+               height: 25em;
+               box-shadow: -32px 32px 20px #111112;;
+               background-color: #131416;
+               border-radius: 2em 3.5em 2.5em 1.5em ;
+               -webkit-border-radius: 2em 3.5em 2.5em 1.5em ;
+               -moz-border-radius: 2em 3.5em 2.5em 1.5em ;
+               -ms-border-radius: 2em 3.5em 2.5em 1.5em ;
+               -o-border-radius: 2em 3.5em 2.5em 1.5em ;
                display: block;
-               -webkit-filter: drop-shadow(0 0 10px #24263a);
+      
 }
                         .decin{
-                            border-radius: 3.5em 4.5em 0em 0em ;
+                            border-radius: 2em 3.5em 0em 0em ;
                             width: 100%;
                             height: 5.5em;
                             display: flex;
-                            background-color: #24263a;
+                            background-color: #111215;
                             justify-content: center;
-                            -webkit-border-radius: 3.5em 4.5em 0em 0em ;
-                            -moz-border-radius: 3.5em 4.5em 0em 0em ;
-                            -ms-border-radius: 3.5em 4.5em 0em 0em ;
-                            -o-border-radius: 3.5em 4.5em 0em 0em ;
+                            -webkit-border-radius: 2em 3.5em 0em 0em ;
+                            -moz-border-radius: 2em 3.5em 0em 0em ;
+                            -ms-border-radius: 2em 3.5em 0em 0em ;
+                            -o-border-radius: 2em 3.5em 0em 0em ;
 }
                         .description{
                             width: 100%;
-                            height: 15em;
-                            
-}
+                            height: 14em;
+                            background-color: #17181b;
+                            display: flex;
+                            justify-content: center;
+
+                            }
+                                .descback{
+                                    width: 85%;
+                                    
+                                    height: 100%;
+                                }
                         .author{
                             width: 100%;
                             height: 6em;
-                            border-radius: 0em 0em 3em 3em ;
-                            -webkit-border-radius: 0em 0em 3em 3em ;
-                            -moz-border-radius: 0em 0em 3em 3em ;
-                            -ms-border-radius: 0em 0em 3em 3em ;
-                            -o-border-radius: 0em 0em 3em 3em ;
-                            background-color: #000101;
+                            border-radius: 0em 0em 3.5em 2em ;
+                            -webkit-border-radius: 0em 0em 3.5em 2em ;
+                            -moz-border-radius: 0em 0em 3.5em 2em ;
+                            -ms-border-radius: 0em 0em 3.5em 2em ;
+                            -o-border-radius: 0em 0em 3.5em 2em ;
+                            background-color: #111215;
                             display: flex;
                             justify-content: center;
-                        }
+}
                         #git{
                             margin-top: 0.5em;
                             font-size: 150%;
@@ -184,7 +227,7 @@ body{
 
 
     .endbar{
-        margin-top: 2em;
+        margin-top: 0em;
         width: 100%;
         float: left;
         height: 5.4em;
@@ -203,8 +246,8 @@ body{
         .nvbut{
             border: none;
             margin-top: 1em;
-            width: 14em;
-            height: 4.2em;
+            width: 13.5em;
+            height: 4em;
             border-radius: 1.5em;
             filter: drop-shadow(0 0 5px #3BBA9C);
             background-color:#3BBA9C;
@@ -233,13 +276,14 @@ body{
         -moz-transition: background-color 500ms,filter 500ms;
         -ms-transition: background-color 500ms,filter 500ms;
         -o-transition: background-color 500ms,filter 500ms;
-        filter: drop-shadow(0 0 5px #48c9ab);
-        -webkit-filter: drop-shadow(0 0 5px #48c9ab);
+        filter: drop-shadow(0 0 8px #33ffcf);
+        -webkit-filter: drop-shadow(0 0 8px #33ffcf);
 }
-.download:hover{ background-color: #4eccaf; filter:drop-shadow(0 0 20px #2e368c) ; -webkit-filter:drop-shadow(0 0 20px #48c9ab) ; }
+.download:hover{ background-color: #4eccaf; filter:drop-shadow(0 0 20px #4eccaf) ; -webkit-filter:drop-shadow(0 0 20px #4eccaf) ; }
 
 /* TEXT*/
 .intro{
+    
     cursor: pointer;
     float: left;
     color: #FDFDFD;
@@ -255,7 +299,7 @@ body{
 }
 .intro:hover{font-size: 188%;}
 .but{
-    font-size: 140%;
+    font-size: 135%;
     font-family: 'Prompt', sans-serif;
     margin-top: 0.7em;
     color: #000000;
@@ -290,8 +334,8 @@ h2.dow:hover{font-size: 270%;}
 }
 .descri{
     width: 95%;
+    font-size: 130%;
     font-family: 'Prompt', sans-serif;
     font-weight: normal;
-    margin-left: 1em;
     color: white;
 }
