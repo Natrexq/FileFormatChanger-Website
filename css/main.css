@@ -21,6 +21,9 @@ font-family: 'Roboto', sans-serif;
  *{
     scroll-behavior: smooth;
 }
+#git{
+    
+}
 body{
     scroll-behavior: smooth;
     width: 100%;
@@ -35,7 +38,7 @@ body{
     width: 100%;
     height: 47.8em;
 
-    background-color: #24263a;
+    background-color: #1f2033;
 }
     .nav{
         width: 100%;
@@ -45,60 +48,74 @@ body{
         
     }
         .logo{
-            width: 32%;
-            padding-left: 3em;
-          
+            width: 30%;
+            padding-left: 4em;
+            
             
         }
         .buts{
             display: flex;
             justify-content: space-around;
-            width: 62%;
+            width: 60%;
           
         }
         .nvback{
-           width: 62em;
+           width: 63em;
            height: 100%;
            display: flex;
            justify-content: space-between;
         }
 
+        
+     
 
-        .dwloadback{
-           
-            width: 69%;
-            background: none;
+
+        .conback{
+            position:absolute;
+            filter: grayscale(90%);
+            opacity: 35%;
+            width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-           
-
-        }
-        .cndwl{
-            
-            background: none;
-        }
-        .dwinfoback{
-            width: 31%;
-            background: none;
-            height: 100%;
-            display: flex;
-            justify-content: left;
-        }
-
-
-
-
+            background-image: url('/css/back.png');
+            background-size: cover;
+            -webkit-filter: grayscale(90%);
+}
     .con{
+        position: relative;
         margin-top: 3em;
         float: left;
         width: 100%;
         height: 36em;
-        background-color: #34384d;
+       
+        display: flex;
+        justify-content: left;
+       
+}
+    .dwloadback{
+        position: relative;
+        width: 69%;
+        background: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .cndwl{
+        position: relative;
+        background: none;
+    }
+    .dwinfoback{
+        position: relative;
+        width: 31%;
+        background: none;
+        height: 100%;
         display: flex;
         justify-content: left;
     }
 
+           
+   
       
 
             .dwl{
