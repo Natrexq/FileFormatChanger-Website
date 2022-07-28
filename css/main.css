@@ -191,7 +191,7 @@ body{
                             #desc:hover{font-size: 110%;}
             .info{
                margin-top: 5.5em;
-             
+                opacity: 85%;
                width: 30em;
                height: 25em;
                box-shadow: -32px 32px 20px #111112;;
@@ -366,7 +366,7 @@ h2.dow:hover{font-size: 270%;}
     font-weight: bold;
 }
 .descri{
-    opacity: 50%;
+    opacity: 70%;
     width: 95%;
     font-size: 128%;
     font-family: 'Roboto', sans-serif;
