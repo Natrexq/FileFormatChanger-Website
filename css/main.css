@@ -31,6 +31,9 @@ body{
     background-color: #000000;
   
 }
+abbr{
+    text-decoration: none;
+}
 .main{
     float: left;
     width: 100%;
