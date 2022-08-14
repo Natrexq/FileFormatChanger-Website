@@ -28,7 +28,7 @@ body{
     height: 53.2em;
     float: left;
     margin: 0;
-    background-color: #000000;
+    background-color: #ffffff;
   
 }
 abbr{
@@ -37,7 +37,7 @@ abbr{
 .main{
     float: left;
     width: 100%;
-    height: 47.8em;
+    height: 53.19em;
 
     background-color: #1c1e2a;
 }
@@ -91,7 +91,7 @@ abbr{
         margin-top: 2em;
         float: left;
         width: 100%;
-        height: 38.5em;
+        height: 43.5em;
        
         display: flex;
         justify-content: left;
@@ -126,7 +126,7 @@ abbr{
 
             .dwl{
         
-                margin-top: 12em;
+                margin-top: 16em;
                 width: 33em;
                 display: block;
                 height: 15em;
@@ -251,27 +251,25 @@ abbr{
 
 
     .endbar{
-        margin-top: 0em;
+
         width: 100%;
         float: left;
         height: 5.4em;
         display: flex;
         justify-content: left;
+        align-items: center;
         background-color: #000000;
     }
     .end{
         cursor: default;
         color: #424242;
-        margin-top: 1.8em;
-        margin-left: 2em;
         font-family: 'Roboto', sans-serif;
     }
     .spaninfo{
         cursor:grab;
         color: #424242;
         float: right;
-        margin-top: 1.8em;
-        margin-left: 2em;
+        margin-left: 1em;
         font-family: 'Roboto', sans-serif;
     }
 /*BUTTONS*/
@@ -378,3 +376,68 @@ h2.dow:hover{font-size: 270%;}
 }
 
 
+/*! media */
+.media_{
+    margin-left: 2em;
+    width: 8em;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.lg_ig{
+    opacity: 50%;
+    float: left;
+    width: 2em;
+    height: 2em;
+    background-size: cover;
+    background-image: url('/css/instalogo.png');
+    transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+}
+.lg_ig:hover{opacity: 80%;}
+.lg_fb{
+    opacity: 50%;
+    float: left;
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+    background-image: url('/css/fblogo.png');
+    transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+}
+.lg_fb:hover{opacity: 80%;}
+.lg_gh{
+    opacity: 50%;
+    float: left;
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+    background-image: url('/css/githublogo.png');
+    transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    
+}
+.lg_gh:hover{opacity: 80%;}
+.spaninfo{
+    transition: opacity 500ms;
+    opacity: 50%;
+    color: white;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+}
+.spaninfo:hover{opacity: 70%;}
