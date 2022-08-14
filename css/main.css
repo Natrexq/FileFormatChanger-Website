@@ -38,8 +38,8 @@ abbr{
     float: left;
     width: 100%;
     height: 53.19em;
-
-    background-color: #1c1e2a;
+    background-image: linear-gradient(#151618, #414569 , #0c0c0e);
+   
 }
     .nav{
         width: 100%;
@@ -61,7 +61,9 @@ abbr{
         }
         .buts{
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
+            align-items: center;
             width: 60%;
           
         }
@@ -82,19 +84,21 @@ abbr{
             opacity: 35%;
             width: 100%;
             height: 100%;
+            
             background-image: url('/css/back.png');
             background-size: cover;
             -webkit-filter: grayscale(90%);
 }
     .con{
         position: relative;
-        margin-top: 2em;
+
         float: left;
         width: 100%;
-        height: 43.5em;
-       
+        height: 90%;
+        flex-wrap: wrap;
         display: flex;
         justify-content: left;
+
        
 }
     .dwloadback{
@@ -125,14 +129,16 @@ abbr{
       
 
             .dwl{
-        
+              
                 margin-top: 16em;
                 width: 33em;
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
                 height: 15em;
                 background: none;
                 border-radius: 4.5em;
-                
                 -webkit-border-radius: 4.5em;
                 -moz-border-radius: 4.5em;
                 -ms-border-radius: 4.5em;
@@ -140,9 +146,10 @@ abbr{
 }
 
                 .dwbut{
-                   
-                    float: left;
-                    width: 30em;
+                    
+                    width: 34em;
+                    display: flex;
+                    justify-content: center;
                     
 
                 }
@@ -274,26 +281,30 @@ abbr{
     }
 /*BUTTONS*/
         .nvbut{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: none;
-            margin-top: 1.3em;
             width: 13.5em;
-            height: 4em;
-            border-radius: 1.5em;
+            height: 3.7em;
+            border-radius: 1.6em;
             filter: drop-shadow(0 0 5px #3BBA9C);
             background-color:#3cb397;
             transition: filter 500ms;
-
-            -webkit-border-radius: 1.5em;
-            -moz-border-radius: 1.5em;
-            -ms-border-radius: 1.5em;
-            -o-border-radius: 1.5em;
+            -webkit-border-radius: 1.6em;
+            -moz-border-radius: 1.6em;
+            -ms-border-radius: 1.6em;
+            -o-border-radius: 1.6em;
             -webkit-filter: drop-shadow(0 0 5px #3BBA9C);
-          
+            -webkit-transition: filter 500ms;
+            -moz-transition: filter 500ms;
+            -ms-transition: filter 500ms;
+            -o-transition: filter 500ms;
 }   
 .nvbut:hover{ filter: drop-shadow(0 0 10px #3BBA9C); -webkit-filter: drop-shadow(0 0 10px #3BBA9C); }
     .download{
         cursor: pointer;
-        width: 80%;
+        width: 30em;
         height: 8em;
         border: none;
         background-color:#48c9ab;
@@ -332,7 +343,7 @@ abbr{
 .intro:hover{font-size: 188%; color: #EDEDED;}
 .but{
     cursor: pointer;
-    font-size: 135%;
+    font-size: 130%;
     font-family: 'Prompt', sans-serif;
     margin-top: 0.7em;
     color: #000000;
